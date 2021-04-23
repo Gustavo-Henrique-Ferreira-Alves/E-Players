@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2? família=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1920px;
+    display: flex;
+}
+
+header{
+    background-color: #2F2C2C;
+    height: 132px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.container_header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+.menu_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 735px;
+    margin-left: 8%;
+}
+
+.menu_header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+    font-size: 23px;
+}
+
+.container_banner{
+    background: linear-gradient(100deg, rgba(253,34,88,1) 0%, rgba(253,34,88,1) 24%, rgba(253,33,95,1) 42%, rgba(1,12,15,1) 62%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+}
+
+.hazard{ 
+    margin-top: 80px;
+    height: 820px;
+    margin-left: 40px;
+}
+
+h1{
+    color: #ffffff;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 110px;
+}
+
+.box_conteudo p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.box_conteudo span{
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    background: #FD2161;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+    height: 83px;
+    margin-left: 25%;
+}
+
+.box_conteudo{
+    margin-right:18%;
+}
+
+.container_logos{
+    background-color:#000000;
+    height: 178px;
+    display: flex;
+    align-items: center;
+}
+
+.espacamento_logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1250px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.informacoes{
+    background-image: url("assets/fundo_info.png");
+    width: 100%;
+    height: 959px;
+}
+
+.retangulo{
+    clip-path: polygon(0 12%, 100% 0, 100% 82%, 0% 97%);
+    background-color: rgba(0, 0, 0, 100%);
+    height: 100%;
+}
+
+.ligas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 18%;
+}
+
+h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 70px;
+    color: #ffffff;
+    margin-bottom: 2%;
+}
+
+.conteudo_info p{
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    font-size: 31px;
+    width: 90%;
+    margin-bottom: 3%;
+}
+
+.secao_ao_vivo{
+    background-color: black;
+    height: 178px;
+}
+
+.ao_vivo{
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #ffffff;
+    width: 75px;
+    height: 108px;
+}
+
+.partidas span{
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color:white;
+}
+
+.em_breve{
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#ffffff;
+    width: 124px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    float: right;
+    height: 112px;
+    color: white;
+    border-left: 1px solid;
+}
+
+.container_aovivo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.partidas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 425px;
+}
+
+.noticias{
+    background-color:#342F2F;
+    height:1468px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 45px;
+    color:#ffffff;
+}
+
+h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 26px;
+    color:#ffffff;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.box_noticia p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color:#ffffff;
+    width: 379px;
+    height: 140px;
+}
+
+.box_noticia{
+    width: 400px;
+    height: 430px;
+    background: linear-gradient(to bottom, rgba(122,117,117,1) 0%, rgba(122,117,117,1) 0%, rgba(122,117,117,1) 58%, rgba(9,7,7,1) 88%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.box_dois{
+    height: 1300px;
+}
+.proximos_jogos{
+    margin-left: 15px;
+}
+
+.proximos_jogos span{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.proximos_jogos_fundo{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1));
+    width: 318px;
+    height: 1320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.proximos_jogos h1{
+    font-family:'Titillium Web', sans-serif;
+    font-size: 45px;
+    color: white;
+}
+
+.horarios{
+    margin-top: -20%;
+}
+
+footer{
+    height: 275px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.container_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 19%;
+    margin-right: 18%;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.links span{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+li{
+    color: white;
+}
+
+.links a{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container_assine .assine{
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+}
+
+.cadastrar{
+    display: flex;
+    margin-top: 3%;
+}
+
+input{
+    width: 229px;
+    height: 40px;
+    font-family: 'Titillium Web', sans-serif;;
+    font-size: 24px;
+    color: #C0AFAF;
+}
+
+.botao{
+    width: 138px;
+    height: 40px;
+    font-family: 'Titillium Web', sans-serif;;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #010D78;
+    border: #010D78;
+}
+
+.container_assine .siga{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.redes_sociais{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+}
