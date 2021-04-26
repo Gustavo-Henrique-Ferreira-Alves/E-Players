@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page E-players</title>
-    <script src="https://kit.fontawesome.com/463a603271.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d010a1c48f.js" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="E-players cadastro times.css">
 </Head>
 
@@ -15,13 +15,13 @@
         <div class="container_header">
             <img class="logo1" src="assets/svg_logo.svg" alt="logo">
             <nav id="links" class="menu_header">
-                <a href="inicio" onclick="btn_menu()">Início</a>
-                <a href="horarios" onclick="btn_menu()">Horários</a>
-                <a href="campeonatos" onclick="btn_menu()">Campeonatos</a>
-                <a href="resultados" onclick="btn_menu()">Resultados</a>
-                <a href="noticias" onclick="btn_menu()">Notícias</a>
+                <a href="inicio" onclick="BotaoDoMenu()">Início</a>
+                <a href="horarios" onclick="BotaoDoMenu()">Horários</a>
+                <a href="campeonatos" onclick="BotaoDoMenu()">Campeonatos</a>
+                <a href="resultados" onclick="BotaoDoMenu()">Resultados</a>
+                <a href="noticias" onclick="BotaoDoMenu()">Notícias</a>
             </nav>
-            <a class="btn_menu" href="#javascript:void(0)" onclick="btn_menu()">
+            <a class="btn_menu" href="#javascript:void(0)" onclick="BotaoDoMenu()">
                 <i class="fas fa-bars"></i>
             </a>
         </div>
@@ -107,7 +107,7 @@
             </div>
         </footer>
         <script>
-            function btn_menu() {
+            function BotaoDoMenu() {
                 var menu = document.getElementById("links");
                 if (menu.style.display === "flex"){
                     //Esconde o menu
